@@ -8,6 +8,10 @@ export default {
     extend: {
       fontFamily: {
         nunito: ["Nunito-Bold"],
+        pacifico: ["Pacifico"],
+      },
+      gridTemplateColumns: {
+        custom: 'repeat(auto-fit, minmax(328px, 316px))',
       },
     },
   },

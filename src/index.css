@@ -15,6 +15,14 @@ body {
   src: url("/public/assets/font/Nunito/static/Nunito-Bold.ttf") format("opentype");
 }
 
+@font-face {
+  font-family: Pacifico;
+  src: url("/public/assets/font/Pacifico/Pacifico-Regular.ttf") format("opentype");
+}
+
+
+
+
 .rotation-hero{
   animation: spin 10s linear infinite;
 }
@@ -33,4 +41,15 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.menu-body{  
+  background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(/public/assets/img/bg-hero.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.icon-size{
+  height: 20px;
+  width: 30px;
 }

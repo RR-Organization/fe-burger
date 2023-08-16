@@ -1,8 +1,15 @@
 import React from "react";
 
 const NavBar = () => {
+    const scrollToSection = (sectionId) => {
+        const section = document.getElementById(sectionId);
+        if (section) {
+            section.scrollIntoView({ behavior: "smooth" });
+        }
+    };
+
     return (
-        <div className="navbar bg-neutral container mx-auto px-20 ">
+        <div className="navbar bg-neutral  container 2xl:mx-auto 2xl:px-28 ">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn  btn-ghost lg:hidden">
@@ -24,8 +31,8 @@ const NavBar = () => {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 text-white">
-                    <li><a>Item 1</a></li>
-                    <li><a>Item 3</a></li>
+                    <li><a onClick={() => scrollToSection("about")}>About Us</a></li>
+                    <li><a onClick={() => scrollToSection("menu")}>Menu</a></li>
                 </ul>
             </div>
             <div className="navbar-end">
