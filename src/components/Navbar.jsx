@@ -22,8 +22,8 @@ const NavBar = () => {
                         <li><a onClick={() => scrollToSection("menu")}>Menu</a></li>
                     </ul>
                 </div>
-                <Link className=" text-orange-600 normal-case text-xl" to={"/"}>
-                    <h3 className="2xl:text-2xl font-nunito "><Restaurant className="mr-2" style={{ height: '64px', width: '56px' }} />R&R Burger</h3>
+                <Link className=" text-orange-600 normal-case text-sm 2xl:text-xl" to={"/"}>
+                    <h3 className="2xl:text-2xl font-nunito "><Restaurant className="mr-2" style={{ height: '40px', width: '30px' }} />R&R Burger</h3>
                 </Link>
             </div>
             <div className="navbar-center hidden lg:flex">
