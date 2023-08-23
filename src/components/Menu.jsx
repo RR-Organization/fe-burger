@@ -27,7 +27,7 @@ const MenuBody = () => {
                         <img className="w-full h-32 object-cover" src={data.gambar} alt="Menu Item" />
                         <div className="py-2">
                             <h3 className="text-lg font-semibold text-black">{data.nama_menu}</h3>
-                            <p className="text-gray-500">{data.harga}</p>
+                            <p className="text-gray-500">{data.harga.toLocaleString("id-ID", { style: "currency", currency: "IDR" })}</p>
                         </div>
                         <Link to="/" className="btn bg-orange-500 hover:bg-orange-600 py-3 px-5 mt-2 text-white border-none">Buy</Link>
                     </div>

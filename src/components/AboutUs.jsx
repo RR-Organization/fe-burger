@@ -31,16 +31,16 @@ const AboutBody = () => {
                         <div className="w-full p-2">
                             <div className="grid grid-cols-2 gap-2 h-96">
                                 <div className="h-full flex items-center justify-center overflow-hidden" data-aos="fade-right" data-aos-duration="1000">
-                                    <img className="object-cover " src="/public/assets/img/restoran-1.jpg" alt="Gambar 1" />
+                                    <img className="object-cover " src="assets/img/restoran-1.jpg" alt="Gambar 1" />
                                 </div>
                                 <div className="h-full flex items-center justify-center overflow-hidden" data-aos="fade-left" data-aos-duration="1000">
-                                    <img className="object-cover " src="/public/assets/img/restoran-2.jpg" alt="Gambar 2" />
+                                    <img className="object-cover " src="assets/img/restoran-2.jpg" alt="Gambar 2" />
                                 </div>
                                 <div className="h-full flex items-center justify-center overflow-hidden" data-aos="fade-right" data-aos-duration="1000">
-                                    <img className="object-cover" src="/public/assets/img/restoran-3.jpg" alt="Gambar 3" />
+                                    <img className="object-cover" src="assets/img/restoran-3.jpg" alt="Gambar 3" />
                                 </div>
                                 <div className="h-full flex items-center justify-center overflow-hidden" data-aos="fade-left" data-aos-duration="1000">
-                                    <img className="object-cover " src="/public/assets/img/burger-hero.jpg" alt="Gambar 4" />
+                                    <img className="object-cover " src="assets/img/burger-hero.jpg" alt="Gambar 4" />
                                 </div>
                             </div>
                         </div>
